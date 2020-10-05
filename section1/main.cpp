@@ -23,6 +23,8 @@ int main() {
 
   std::unique_ptr<Test> t3;
   t3 = std::move (t1);
+  if (!t1)
+    std::cout<<"t1 is nullptr"<<std::endl;
   return 0;
 }
 
