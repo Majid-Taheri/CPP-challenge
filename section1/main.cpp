@@ -21,7 +21,9 @@ int main() {
   std::unique_ptr<Test> t1 {new Test{100}};
   std::unique_ptr<Test> t2 = std::make_unique<Test>(1000);
 
-       return 0;
+  std::unique_ptr<Test> t3;
+  t3 = std::move (t1);
+  return 0;
 }
 
 
