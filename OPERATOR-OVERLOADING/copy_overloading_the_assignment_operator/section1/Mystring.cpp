@@ -20,3 +20,10 @@ Mystring::Mystring(const char *s)
             std::strcpy(str, s);
         }
 }
+
+// Copy constructor
+Mystring::Mystring(const Mystring &source) 
+     : str{nullptr} {
+        str = new char[std::strlen(source.str )+ 1];
+        std::strcpy(str, source.str);
+}
