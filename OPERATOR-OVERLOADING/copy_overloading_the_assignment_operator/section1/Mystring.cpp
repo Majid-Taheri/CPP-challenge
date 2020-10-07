@@ -27,3 +27,8 @@ Mystring::Mystring(const Mystring &source)
         str = new char[std::strlen(source.str )+ 1];
         std::strcpy(str, source.str);
 }
+
+// Destructor
+Mystring::~Mystring() {
+    delete [] str;
+}
