@@ -15,6 +15,12 @@ int main() {
     double_data(&value);
     cout << "Value: " << value << endl;
 
+    cout << "-----------------------------" << endl;
+    int_ptr = &value;
+    double_data(int_ptr);
+    cout << "Value: " << value << endl;
+
+    cout  << endl;
     return 0;
 
 }
