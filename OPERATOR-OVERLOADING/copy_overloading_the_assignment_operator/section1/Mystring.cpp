@@ -32,3 +32,8 @@ Mystring::Mystring(const Mystring &source)
 Mystring::~Mystring() {
     delete [] str;
 }
+
+// Display method
+void Mystring::display() const {
+    std::cout << str << " : " << get_length() << std::endl;
+}
