@@ -37,3 +37,6 @@ Mystring::~Mystring() {
 void Mystring::display() const {
     std::cout << str << " : " << get_length() << std::endl;
 }
+
+// length getter
+ int Mystring::get_length() const { return std::strlen(str); }
