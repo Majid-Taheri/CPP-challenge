@@ -9,7 +9,9 @@ int *apply_all (size_t  size_array1, const int * const array1 , size_t size_arra
     int position {0};
    for (size_t i{0}; i <  size_array2 ; ++i){
        for (size_t j{0}; j <  size_array1 ; ++j) {
-             *(new_storage + i) = array2[i] * array1[j];
+             *(new_storage + position) = array2[i] * array1[j];
+          //  new_storage[position] = array1[j] * array2[i];
+
              ++ position;
        }
    }
