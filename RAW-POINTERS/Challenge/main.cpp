@@ -3,7 +3,7 @@
 
 using namespace std;
 // I was unable to pass an array by value or by reference has to use pointer
-int *apply_all (const size_t const& size_array1, const int const *array1 , const size_t const &size_array2, const int const *array2) {
+int *apply_all (size_t  size_array1, const int * const array1 , size_t size_array2, const int * const array2) {
    int *new_storage {nullptr};
    new_storage = new int[size_array1 * size_array2];
     int position {0};
@@ -38,6 +38,7 @@ int main() {
     constexpr size_t result_size {size_array1 * size_array2} ; 
     
     print (my_array, result_size);
+    
     delete [] my_array;
     return 0;
 }
