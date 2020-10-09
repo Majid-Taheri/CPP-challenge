@@ -12,3 +12,9 @@ class Player {
     bool is_dead();
 };
 
+int main() {
+
+    Player frank;
+
+    return 0;
+}
