@@ -24,6 +24,8 @@ int main() {
 
     Player *good = new Player();
 
+    Player players[] {frank, hero};
+
 
     delete enemy;
     delete good;
