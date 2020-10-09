@@ -17,6 +17,8 @@ int main() {
     Player frank;
     Player hero;
 
+    Player *enemy {nullptr};
+    enemy = new Player;
 
     return 0;
 }
