@@ -15,6 +15,8 @@ class Player {
 int main() {
 
     Player frank;
+    Player hero;
+
 
     return 0;
 }
