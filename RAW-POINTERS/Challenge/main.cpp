@@ -13,3 +13,10 @@ int *apply_all (size_t size_array1, vector<int> &v1 , size_t size_array2,  vecto
    }
    return new_storage;
 }
+
+
+void print (const int *const array, const size_t &size) {
+    for (size_t i{0}; i < size; ++i)
+        cout << array[i] << " ";
+    cout << endl;
+}
