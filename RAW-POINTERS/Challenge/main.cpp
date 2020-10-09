@@ -25,7 +25,6 @@ void print (const int *const array, const size_t &size) {
 
 int main() {
     int *my_array {nullptr};
-    size_t size;
     const int size_array1 {5};
     const int size_array2 {3};
  
