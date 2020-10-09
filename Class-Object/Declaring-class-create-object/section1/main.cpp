@@ -20,7 +20,12 @@ int main() {
     Player *enemy {nullptr};
     enemy = new Player;
 
+
+    Player *good = new Player();
+
+
     delete enemy;
+    delete good;
 
     return 0;
 }
