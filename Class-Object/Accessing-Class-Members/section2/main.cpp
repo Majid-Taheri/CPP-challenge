@@ -14,3 +14,9 @@ public:
     bool withdraw(double bal) {balance -= bal; cout << "In withdraw" << endl;  }
     
 };
+
+int main() {
+
+
+    return 0;
+}
