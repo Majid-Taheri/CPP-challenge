@@ -22,5 +22,12 @@ int main() {
     frank.xp = 12;
     frank.talk("Hi there");
 
+    Player *enemy = new Player ;
+    (*enemy).name = "Enemy";
+    (*enemy).health = 100;
+    enemy->xp = 15;
+    
+    enemy->talk("I will destroy you!");
+
     return 0;
 }
