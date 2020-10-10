@@ -20,7 +20,7 @@ int main() {
     Majid.name = "Majid";
     Majid.health = 100;
     Majid.xp = 12;
-    Majid.talk("Hi there");
+    Majid.talk("Majid is here");
 
     Player *enemy = new Player ;
     (*enemy).name = "Enemy";
