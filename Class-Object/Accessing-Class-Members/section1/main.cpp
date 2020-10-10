@@ -16,11 +16,11 @@ public:
 };
 
 int main() {
-    Player frank;
-    frank.name = "Frank";
-    frank.health = 100;
-    frank.xp = 12;
-    frank.talk("Hi there");
+    Player Majid;
+    Majid.name = "Majid";
+    Majid.health = 100;
+    Majid.xp = 12;
+    Majid.talk("Hi there");
 
     Player *enemy = new Player ;
     (*enemy).name = "Enemy";
