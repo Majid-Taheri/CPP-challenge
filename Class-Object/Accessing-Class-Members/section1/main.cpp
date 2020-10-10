@@ -14,3 +14,13 @@ public:
     void talk(string text_to_say) { cout << name << " says " << text_to_say << endl;  }
     bool is_dead();
 };
+
+int main() {
+    Player frank;
+    frank.name = "Frank";
+    frank.health = 100;
+    frank.xp = 12;
+    frank.talk("Hi there");
+
+    return 0;
+}
