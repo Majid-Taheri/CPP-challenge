@@ -29,5 +29,7 @@ int main() {
     
     enemy->talk("I will destroy you!");
 
+    delete enemy;
+
     return 0;
 }
