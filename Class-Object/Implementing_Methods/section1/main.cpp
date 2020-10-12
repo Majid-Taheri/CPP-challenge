@@ -26,3 +26,7 @@ public:
 void Account::set_name(string n) {
     name = n;
 }
+
+string Account::get_name() {
+    return name;
+}
