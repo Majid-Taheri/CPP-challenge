@@ -17,7 +17,9 @@ public:
 
 int main() {
     Player majid;
-    majid.name = "Majid"; //compile error cannot acces private attributes 
-    cout << majid.health << endl; //compile error cannot acces private attributes 
+    // majid.name = "Majid"; //compile error cannot acces private attributes 
+    // cout << majid.health << endl; //compile error cannot acces private attributes 
+    majid.talk("Hello there");
 
+    return 0;
 }
