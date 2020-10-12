@@ -14,3 +14,9 @@ public:
     void talk(string text_to_say) { cout << name << " says " << text_to_say << endl;  }
     bool is_dead();
 };
+
+int main() {
+    Player frank;
+   frank.name = "Majid"; //compile error cannot acces private attributes 
+
+}
