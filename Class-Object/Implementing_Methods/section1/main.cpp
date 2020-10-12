@@ -30,3 +30,9 @@ void Account::set_name(string n) {
 string Account::get_name() {
     return name;
 }
+
+bool Account::deposit(double amount) {
+    // if verify amount
+    balance += amount;
+    return true;
+}
