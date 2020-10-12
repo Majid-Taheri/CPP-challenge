@@ -16,7 +16,7 @@ public:
 };
 
 int main() {
-    Player frank;
-   frank.name = "Majid"; //compile error cannot acces private attributes 
+    Player majid;
+    majid.name = "Majid"; //compile error cannot acces private attributes 
 
 }
