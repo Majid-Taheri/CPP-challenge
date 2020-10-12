@@ -22,3 +22,7 @@ public:
     bool deposit(double amount);
     bool withdraw(double amount);
 };
+
+void Account::set_name(string n) {
+    name = n;
+}
