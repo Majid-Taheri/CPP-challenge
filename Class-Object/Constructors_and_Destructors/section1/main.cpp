@@ -16,4 +16,7 @@ public:
     Player() { 
         cout << "No args constructor called"<< endl;
     }
+    Player(std::string name) { 
+        cout << "String arg constructor called"<< endl;
+    }
 };
