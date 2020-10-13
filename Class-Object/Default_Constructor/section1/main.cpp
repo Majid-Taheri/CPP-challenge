@@ -20,6 +20,11 @@ public :
         health = 100;
         xp = 3;
     }
+    Player(std::string name_val, int health_val, int xp_val) {
+        name = name_val;
+        health = health_val;
+        xp = xp_val;
+    }
 };
 
 int main () {
