@@ -46,5 +46,9 @@ int main() {
     Player *enemy =&pepe;
     (*enemy).set_name("Enemy");
 
+    Player *friends = new Player;
+    friends -> set_name("Friends");
+
+    delete friends;
     return 0;
 }
