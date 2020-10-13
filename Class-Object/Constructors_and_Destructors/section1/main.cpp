@@ -33,6 +33,13 @@ int main() {
         majid.set_name("Majid");
     }
 
-
+    {
+        Player ronaldo;
+        ronaldo.set_name("Ronaldo");
+        Player hero("Hero");
+        hero.set_name("Hero");
+        Player villain("Villain", 100, 12);
+        villain.set_name("Villain");
+    }
     return 0;
 }
