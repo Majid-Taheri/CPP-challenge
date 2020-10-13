@@ -26,3 +26,8 @@ public:
         cout << "Destructor called for " << name << endl; 
     }
 };
+
+int main() {
+
+    return 0;
+}
