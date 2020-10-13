@@ -29,8 +29,10 @@ public:
 
 int main() {
     {
-        Player slayer;
-        slayer.set_name("Slayer");
+        Player majid;
+        majid.set_name("Majid");
     }
+
+
     return 0;
 }
