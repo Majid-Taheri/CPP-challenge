@@ -49,6 +49,11 @@ int main() {
     Player *friends = new Player;
     friends -> set_name("Friends");
 
+    Player *level_boss = new Player("Level Boss", 1000, 300);
+    level_boss->set_name("Level Boss");
+
+    delete level_boss;
     delete friends;
+
     return 0;
 }
