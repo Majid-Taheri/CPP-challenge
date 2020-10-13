@@ -28,6 +28,9 @@ public:
 };
 
 int main() {
-
+    {
+        Player slayer;
+        slayer.set_name("Slayer");
+    }
     return 0;
 }
