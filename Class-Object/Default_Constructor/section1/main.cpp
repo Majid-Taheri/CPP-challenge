@@ -18,6 +18,6 @@ public :
 };
 
 int main () {
-
+    Player majid;
     return 0;
 }
