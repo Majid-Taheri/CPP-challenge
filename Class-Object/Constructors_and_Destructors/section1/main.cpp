@@ -41,5 +41,10 @@ int main() {
         Player villain("Villain", 100, 12);
         villain.set_name("Villain");
     }
+
+    Player pepe;
+    Player *enemy =&pepe;
+    (*enemy).set_name("Enemy");
+
     return 0;
 }
