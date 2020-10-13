@@ -15,6 +15,11 @@ public :
     std::string get_name () {
         return name;
     }
+    Player() {
+        name = "None";
+        health = 100;
+        xp = 3;
+    }
 };
 
 int main () {
