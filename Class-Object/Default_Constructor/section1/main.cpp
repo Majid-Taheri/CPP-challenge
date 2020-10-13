@@ -24,5 +24,8 @@ public :
 
 int main () {
     Player majid;
+    Player hero {"Hero", 100, 13};
+    hero.set_name("Hero");
+    cout << hero.get_name() << endl;
     return 0;
 }
