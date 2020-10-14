@@ -31,3 +31,11 @@ Player::Player (std::string name_val , int health_val, int xp_val) {
     xp = xp_val;
     health = health_val;
 }
+
+int main () {
+    Player empty;
+    Player majid {"Majid"};
+    Player hero {"Hero", 100, 11};
+
+    return 0;
+}
