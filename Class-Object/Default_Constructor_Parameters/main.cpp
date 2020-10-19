@@ -11,6 +11,8 @@ private:
    int xp;
 public:
     Player(std::string name_val ="None", int health_val = 0, int xp_val = 0);
+    Player() {}    // Will cause a compiler error
+
 };
 
 Player::Player(std::string name_val, int health_val, int xp_val) 
