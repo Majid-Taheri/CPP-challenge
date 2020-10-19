@@ -17,3 +17,13 @@ Player::Player(std::string name_val, int health_val, int xp_val)
     : name{name_val}, health{health_val}, xp{xp_val} {
             cout << "Three-args constructor" << endl;
 }
+
+int main() {
+    
+    Player empty;
+    Player majid {"Majid"};
+    Player hero {"Hero", 100};
+    Player villain {"Villain", 100, 55};
+    
+    return 0;
+}
