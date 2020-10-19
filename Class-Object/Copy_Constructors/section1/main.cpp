@@ -35,3 +35,17 @@ void display_player(Player p) {
     cout << "Health: " << p.get_health() << endl;
     cout << "XP: " << p.get_xp() << endl;    
 }
+
+int main() {    
+    Player empty {"XXXXXX", 100, 50};
+    
+    Player my_new_object {empty};  //copy constructor
+    
+    display_player(empty); // display ->copy constructor - > display
+    
+    Player majid {"Majid"};
+    Player hero {"Hero", 100};
+    Player villain {"Villain", 100, 55};
+        
+    return 0;
+}
