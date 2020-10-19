@@ -22,5 +22,7 @@ int main() {
     
     Player empty;
     Player majid {"Majid"};
+    Player hero {"Hero", 100};
+
     return 0;
 }
