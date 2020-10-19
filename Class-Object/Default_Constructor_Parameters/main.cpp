@@ -22,8 +22,5 @@ int main() {
     
     Player empty;
     Player majid {"Majid"};
-    Player hero {"Hero", 100};
-    Player villain {"Villain", 100, 55};
-    
     return 0;
 }
