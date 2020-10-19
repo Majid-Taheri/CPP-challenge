@@ -26,8 +26,9 @@ Player::Player(std::string name_val, int health_val, int xp_val)
 }
 
 Player::Player(const Player &source)
-   : name(source.name), health(source.health), xp{source.xp} {
-    cout << "Copy constructor - made copy of: " << source.name << endl; 
+   // : name(source.name), health(source.health), xp{source.xp} {
+       : Player {source.name, source.health, source.xp}  {
+        cout << "Copy constructor - made copy of: " << source.name << endl; 
 }
 
 void display_player(Player p) {
