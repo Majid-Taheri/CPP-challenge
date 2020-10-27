@@ -41,6 +41,8 @@ int main() {
 
     display_shallow(obj1);
 
+    Shallow obj2 {obj1};
+
     return 0;
 
 }
