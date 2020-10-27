@@ -36,5 +36,9 @@ void display_shallow(Shallow s) {
 }
 
 int main() {
+
+    Shallow obj1 {100};
+
     return 0;
+
 }
