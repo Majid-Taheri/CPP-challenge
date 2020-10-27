@@ -43,6 +43,8 @@ int main() {
 
     Shallow obj2 {obj1};
 
+    obj2.set_data_value(1000);
+
     return 0;
 
 }
