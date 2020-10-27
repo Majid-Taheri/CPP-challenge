@@ -34,3 +34,7 @@ Shallow::~Shallow() {
 void display_shallow(Shallow s) {
     cout << s.get_data_value() << endl;
 }
+
+int main() {
+    return 0;
+}
