@@ -15,3 +15,8 @@ public:
     // Destructor
     ~Shallow();
 };
+
+Shallow::Shallow(int d) {
+    data = new int;
+    *data = d;
+}
