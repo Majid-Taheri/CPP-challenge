@@ -30,3 +30,7 @@ Shallow::~Shallow() {
     delete data;
     cout << "Destructor freeing data" << endl;
 }
+
+void display_shallow(Shallow s) {
+    cout << s.get_data_value() << endl;
+}
