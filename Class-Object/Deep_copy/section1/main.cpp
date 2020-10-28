@@ -37,5 +37,7 @@ void display_deep(Deep s) {
 
 int main() {
 
+    Deep obj1 {100};
+
     return 0;
 }
