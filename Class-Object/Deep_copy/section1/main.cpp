@@ -25,3 +25,8 @@ Deep::Deep(const Deep &source)
     : Deep {*source.data} {
     cout << "Copy constructor  - deep copy" << endl;
 }
+
+Deep::~Deep() {
+    delete data;
+    cout << "Destructor freeing data" << endl;
+}
