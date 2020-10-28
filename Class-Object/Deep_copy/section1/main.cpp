@@ -20,3 +20,8 @@ Deep::Deep(int d) {
     data = new int;
     *data = d;
 }
+
+Deep::Deep(const Deep &source)
+    : Deep {*source.data} {
+    cout << "Copy constructor  - deep copy" << endl;
+}
