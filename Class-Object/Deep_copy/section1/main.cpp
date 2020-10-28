@@ -34,3 +34,8 @@ Deep::~Deep() {
 void display_deep(Deep s) {
     cout << s.get_data_value() << endl;
 }
+
+int main() {
+
+    return 0;
+}
