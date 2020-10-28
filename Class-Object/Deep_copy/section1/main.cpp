@@ -15,3 +15,8 @@ public:
     // Destructor
     ~Deep();
 };
+
+Deep::Deep(int d) {
+    data = new int;
+    *data = d;
+}
