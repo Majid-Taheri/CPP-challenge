@@ -30,3 +30,7 @@ Deep::~Deep() {
     delete data;
     cout << "Destructor freeing data" << endl;
 }
+
+void display_deep(Deep s) {
+    cout << s.get_data_value() << endl;
+}
