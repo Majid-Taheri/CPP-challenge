@@ -46,3 +46,8 @@ Move::~Move() {
     }
     delete data;
 }
+
+int main() {
+
+    return 0;
+}
