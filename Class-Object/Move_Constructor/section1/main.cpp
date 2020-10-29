@@ -39,6 +39,10 @@ Move::Move(Move &&source) noexcept
 }
 
 Move::~Move() {
-
+    if (data != nullptr) {
+        cout << "Destructor freeing data for: " << *data << endl;
+    } else {
+        cout << "Destructor freeing data for nullptr" << endl;
+    }
     delete data;
 }
