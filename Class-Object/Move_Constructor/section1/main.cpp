@@ -30,3 +30,10 @@ Move::Move(const Move &source)
     : Move {*source.data} {
         cout << "Copy constructor  - deep copy for: " << *data << endl;
 }
+
+// Move ctor
+Move::Move(Move &&source) noexcept 
+    : data {source.data} {
+        source.data = nullptr;
+        cout << "Move constructor - moving resource: " << *data << endl;
+}
