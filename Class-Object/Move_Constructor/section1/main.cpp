@@ -24,3 +24,9 @@ public:
     *data = d;
     cout << "Constructor for: " << d << endl;
 }
+
+// Copy ctor- but not used
+Move::Move(const Move &source)
+    : Move {*source.data} {
+        cout << "Copy constructor  - deep copy for: " << *data << endl;
+}
