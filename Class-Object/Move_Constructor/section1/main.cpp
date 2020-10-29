@@ -18,3 +18,9 @@ public:
     // Destructor
     ~Move();
 };
+
+ Move::Move(int d)  {
+    data = new int;
+    *data = d;
+    cout << "Constructor for: " << d << endl;
+}
