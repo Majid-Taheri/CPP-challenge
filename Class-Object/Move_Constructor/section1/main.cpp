@@ -37,3 +37,8 @@ Move::Move(Move &&source) noexcept
         source.data = nullptr;
         cout << "Move constructor - moving resource: " << *data << endl;
 }
+
+Move::~Move() {
+
+    delete data;
+}
