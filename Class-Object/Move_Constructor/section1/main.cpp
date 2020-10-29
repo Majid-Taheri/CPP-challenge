@@ -48,6 +48,11 @@ Move::~Move() {
 }
 
 int main() {
+    vector<Move> vec;
+
+    vec.push_back(Move{10});
+
+
 
     return 0;
 }
