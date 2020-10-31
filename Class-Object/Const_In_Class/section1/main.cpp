@@ -25,3 +25,7 @@ public:
 Player::Player() 
     : Player {"None",0,0} {
 }
+
+Player::Player(std::string name_val) 
+   : Player {name_val,0, 0}  {
+}
