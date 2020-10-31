@@ -10,7 +10,7 @@ private:
     int health;
      int xp;  
 public:
-    std::string get_name() {
+    std::string get_name() const  {         // consty method
         return name;
     }
     void set_name(std::string name_val)   {
