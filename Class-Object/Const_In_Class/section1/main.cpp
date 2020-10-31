@@ -37,3 +37,7 @@ Player::Player(std::string name_val, int health_val, int xp_val)
 void display_player_name(const Player &p) {
     cout << p.get_name() << endl;
 }
+
+int main() {
+    return 0;
+}
