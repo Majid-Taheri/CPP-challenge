@@ -39,5 +39,8 @@ void display_player_name(const Player &p) {
 }
 
 int main() {
+
+    Player hero {"Hero", 100, 15};
+
     return 0;
 }
