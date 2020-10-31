@@ -43,6 +43,9 @@ int main() {
     const Player villain {"Villain", 100, 55};    
     Player hero {"Hero", 100, 15};
     
+    // villain.set_name("Super villain"); //compiler error its const 
+    hero.set_name("Super villain");
+
     cout << villain.get_name() << endl;
     cout << hero.get_name() << endl;   
     
