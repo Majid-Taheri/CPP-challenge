@@ -40,10 +40,13 @@ void display_player_name(const Player &p) {
 
 int main() {
 
+    const Player villain {"Villain", 100, 55};    
     Player hero {"Hero", 100, 15};
-
-    cout << hero.get_name() << endl;
-
+    
+    cout << villain.get_name() << endl;
+    cout << hero.get_name() << endl;   
+    
+    display_player_name(villain);
     display_player_name(hero);
 
     return 0;
