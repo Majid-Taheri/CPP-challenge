@@ -21,3 +21,7 @@ public:
     Player(std::string name_val);
     Player(std::string name_val, int health_val, int xp_val);
 };
+
+Player::Player() 
+    : Player {"None",0,0} {
+}
