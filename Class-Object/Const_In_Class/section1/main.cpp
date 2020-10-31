@@ -44,6 +44,7 @@ int main() {
 
     cout << hero.get_name() << endl;
 
+    display_player_name(hero);
 
     return 0;
 }
