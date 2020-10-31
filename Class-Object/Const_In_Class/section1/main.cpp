@@ -33,3 +33,7 @@ Player::Player(std::string name_val)
 Player::Player(std::string name_val, int health_val, int xp_val) 
     : name{name_val}, health{health_val}, xp{xp_val} {
 }
+
+void display_player_name(const Player &p) {
+    cout << p.get_name() << endl;
+}
