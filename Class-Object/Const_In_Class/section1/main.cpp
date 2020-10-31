@@ -42,5 +42,8 @@ int main() {
 
     Player hero {"Hero", 100, 15};
 
+    cout << hero.get_name() << endl;
+
+
     return 0;
 }
