@@ -11,4 +11,12 @@ int main() {
     cout << "sizeof num is" << sizeof num << endl;
     cout << "Address of num is" << &num  << endl;
 
+    ///
+
+    int *p;
+    cout << "\nValue of p is : " << p << endl;
+    cout << "Address of p is" << &p <<endl;
+    cout << "Size of p is" << sizeof p << endl;
+
+
 }
