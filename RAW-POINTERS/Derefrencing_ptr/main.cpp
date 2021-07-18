@@ -32,6 +32,16 @@ int main (){
     cout << high_temp << endl;
     cout << low_temp  << endl;
 
+    cout <<"\n---------------" << endl;
+
+    string name {"Majid"};
+    string *name_ptr {&name};
+
+    cout << *name_ptr << endl;
+
+    name = "Sean";
+
+    cout << *name_ptr << endl;
 
     cout << endl;
     return 0;
