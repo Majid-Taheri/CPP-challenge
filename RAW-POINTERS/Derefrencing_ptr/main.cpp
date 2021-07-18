@@ -17,6 +17,21 @@ int main (){
 
     cout << *score_ptr  << endl;
 
+    cout << "\n-----------------" << endl;
+
+    double high_temp {100.7};
+    double low_temp {37.4};
+
+    double *temp_ptr {&high_temp};
+
+    cout << *temp_ptr  << endl;
+
+    temp_ptr = &low_temp;
+
+    cout << *temp_ptr << endl;
+    cout << high_temp << endl;
+    cout << low_temp  << endl;
+
 
     cout << endl;
     return 0;
