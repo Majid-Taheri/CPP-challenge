@@ -11,7 +11,7 @@ int main (){
     cout << int_ptr << endl;
     cout << *int_ptr << endl;
 
-   
+   delete int_ptr;
     cout << endl;
     return 0;
 }
