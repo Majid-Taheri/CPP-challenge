@@ -10,8 +10,20 @@ int main (){
 
     cout << int_ptr << endl;
     cout << *int_ptr << endl;
+    delete int_ptr;
 
-   delete int_ptr;
+    ///
+    size_t size{0};
+
+    double *temp_ptr {nullptr};
+    cout << "How many temps ? " << endl;
+    cin >> size;   
+
+    temp_ptr = new double[size];
+
+    cout << temp_ptr << endl;
+    
+
     cout << endl;
     return 0;
 }
