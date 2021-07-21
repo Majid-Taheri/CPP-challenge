@@ -45,6 +45,19 @@ int main (){
 
     cout << *p1 << " == "  << *p3 << " : " << (*p1 == *p3) << endl;
 
+    cout << "\n----------------------" << endl;
+    char name[] {"Frank"};
+    char *char_ptr1{nullptr};
+    char *char_ptr2{nullptr};
+
+    char_ptr1 = &name[0];
+    char_ptr2 = &name[2];
+
+    cout << char_ptr1 << endl;
+
+    cout << char_ptr2 << endl;
+
+    cout << "In the string " << name << ", "<<*char_ptr2 << " is "<< (char_ptr2 - char_ptr1) << " characters away from " << *char_ptr1 <<endl;
 
     cout << endl;
     return 0;
