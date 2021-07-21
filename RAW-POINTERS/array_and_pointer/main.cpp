@@ -26,6 +26,11 @@ int main (){
     cout << score_ptr[1] << endl;
     cout << score_ptr[2] << endl;
 
+    cout << "\nArray Subscript notation"  << endl;
+    cout << scores[0] << endl;
+    cout << scores[1] << endl;
+    cout << scores[2] << endl;
+
     cout << endl;
     return 0;
 }
