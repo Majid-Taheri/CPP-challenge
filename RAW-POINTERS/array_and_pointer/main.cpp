@@ -31,6 +31,13 @@ int main (){
     cout << scores[1] << endl;
     cout << scores[2] << endl;
 
+    cout << "\nArray offset notation"  << endl;
+
+    cout << *scores << endl;      //100
+
+    cout << *(scores + 1) << endl;      //95
+
+    cout << *(scores + 2) << endl;      //98
     cout << endl;
     return 0;
 }
