@@ -9,6 +9,12 @@ int main (){
 
    cout << "value of scores" << scores << endl;
 
+   int *score_ptr {scores};
+
+   cout << "Value of score_ptr" << scores << endl;
+
+
+
 
     cout << endl;
     return 0;
