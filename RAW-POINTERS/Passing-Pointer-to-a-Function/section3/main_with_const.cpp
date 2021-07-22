@@ -11,7 +11,7 @@ void display( const vector<string> *const v) {
     cout << endl; //last const would not allow this to compile
   
     // v= nullptr;
-
+}
 int main() {
 
    cout << "-----------------------------" << endl;
